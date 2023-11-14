@@ -49,13 +49,18 @@
                         <h6>Manage your personal information, timezone, and profile image.</h6>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <span class="red">*</span> are required fields
+                    </div>
+                </div>
                 <div class="row mt-4">
                     <div class="col">
                         <input type="hidden" id="id" />
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="mb-3">
-                                    <label for="formFile" class="form-label">First Name</label>
+                                    <label for="formFile" class="form-label">First Name<span class="red">*</span></label>
                                     <input class="form-control required" type="text" id="first_name" placeholder="John">
                                 </div>
                                 <div class="error alert alert-warning d-flex align-items-center" id="error_first_name">
@@ -63,7 +68,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="mb-3">
-                                    <label for="formFile" class="form-label">Last Name</label>
+                                    <label for="formFile" class="form-label">Last Name<span class="red">*</span></label>
                                     <input class="form-control required" type="text" id="last_name" placeholder="Smith">
                                 </div>
                                 <div class="error alert alert-warning d-flex align-items-center" id="error_last_name">
@@ -73,7 +78,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="formFile" class="form-label">Email</label>
+                                    <label for="formFile" class="form-label">Email<span class="red">*</span></label>
                                     <input class="form-control required" type="text" id="email"
                                         placeholder="jon.smith@example.com">
                                 </div>
@@ -94,7 +99,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3 position-relative address-input">
-                                    <label for="formFile" class="form-label">Address</label>
+                                    <label for="formFile" class="form-label">Address <span class="red">*</span></label>
                                     <input class="form-control required" type="text" id="address"
                                         placeholder="123 Test Street">
                                     <i class="fa-solid fa-location-dot"></i>
@@ -106,7 +111,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="formFile" class="form-label">City</label>
+                                    <label for="formFile" class="form-label">City<span class="red">*</span></label>
                                     <input class="form-control required" type="text" id="city" placeholder="Lakewood">
                                 </div>
                                 <div class="error alert alert-warning d-flex align-items-center" id="error_city"></div>
@@ -115,7 +120,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="formFile" class="form-label">State/Province</label>
+                                    <label for="formFile" class="form-label">State/Province<span class="red">*</span></label>
                                     <select name="state" id="state" class="form-select required">
                                         <option value="" selected>Select a State</option>
                                         <option value="AL">Alabama</option>
@@ -177,7 +182,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="formFile" class="form-label">Postal Code</label>
+                                    <label for="formFile" class="form-label">Postal Code <span class="red">*</span></label>
                                     <input class="form-control required" type="text" id="zip" placeholder="14750">
                                 </div>
                                 <div class="error alert alert-warning d-flex align-items-center" id="error_zip">
@@ -187,7 +192,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="formFile" class="form-label">Country</label>
+                                    <label for="formFile" class="form-label">Country <span class="red">*</span></label>
                                     <select id="country" name="country" class="form-select required">
                                         <option value="" selected>Select a Country</option>
                                         <option value="AF">Afghanistan</option>

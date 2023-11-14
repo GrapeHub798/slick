@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+.red {
+    color: #ff0000;
+}
+
 .overlay-loading-container {
     top: 0px;
     width: 100%;
